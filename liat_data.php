@@ -14,6 +14,7 @@
    <th >TIPE</th>   
    <th >TAHUN</th>   
    <th >WARNA</th>
+   <th >TRANSMISI</th>
    <th >DEALER</th>
    <th >HARGA</th>
    <th >KOTA</th>
@@ -51,6 +52,7 @@ EOF;
          echo "<td>". $row['tipe'] ."</td>";
          echo "<td>". $row['tahun'] ."</td>";
          echo "<td>". $row['warna'] ."</td>";
+         echo "<td>". $row['transmisi'] ."</td>";
          echo "<td>". $row['showroom'] ."</td>";
          echo "<td>". $row['harga'] ."</td>";
          echo "<td>". $row['kota'] ."</td>";
