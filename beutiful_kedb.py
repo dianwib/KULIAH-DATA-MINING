@@ -1,8 +1,6 @@
 import beutiful_url
-import pandas as pd
 from bs4 import BeautifulSoup
 
-import string
 soup=BeautifulSoup(beutiful_url.html,"lxml")
 
 import sqlite3
@@ -32,6 +30,8 @@ daftar_tahunmobil=[]
 daftar_warnamobil=[]
 daftar_transmisimobil=[]
 daftar_deskripsi=[]
+
+
 produk = soup.find_all("div","box-car clearfix") #class yang kan difilter pada inspect element #div=tag html / box car==classnya
 
 for p in produk:
