@@ -10,7 +10,7 @@ c = conn.cursor()
 # Create table
 c.execute('DROP TABLE IF EXISTS mobil_bekas')
 c.execute('''CREATE TABLE IF NOT EXISTS mobil_bekas
-             (merk VARCHAR, model VARCHAR, tipe VARCHAR, harga INTEGER, kota VARCHAR, provinsi VARCHAR, showroom VARCHAR, transmisi VARCHAR, warna VARCHAR, deskripsi VARCHAR)''')
+             (merk VARCHAR, model VARCHAR, tipe VARCHAR, harga INTEGER, tahun VARCHAR, kota VARCHAR, provinsi VARCHAR, showroom VARCHAR, transmisi VARCHAR, warna VARCHAR, deskripsi VARCHAR)''')
 conn.commit()
 
 # Insert a row of data
@@ -87,7 +87,7 @@ for p in produk:
     print(deskripsi)
 
     #insert to table
-    c.execute("INSERT INTO mobil_bekas (merk, model, tipe, harga, kota, provinsi, showroom, transmisi, warna, deskripsi) values (?, ?,?, ?, ?,?,?, ?, ?,?)", (merk, model, tipe, harga, kota, provinsi, showroom, transmisi, warna, deskripsi))
+    c.execute("INSERT INTO mobil_bekas (merk, model, tipe, harga,tahun, kota, provinsi, showroom, transmisi, warna, deskripsi) values (?, ?,?, ?,?, ?,?,?, ?, ?,?)", (merk, model, tipe, harga,tahun, kota, provinsi, showroom, transmisi, warna, deskripsi))
     conn.commit()
 
     daftar_merk.append(str(merk))

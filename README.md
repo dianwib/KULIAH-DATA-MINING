@@ -8,3 +8,5 @@ Tugas 1 Scrapping Web
 2. Otomart.db
 3. beutiful_url.py
 4. beutiful_kedb.py
+5. beutiful_liatdb.py
+6. liat_data.php
