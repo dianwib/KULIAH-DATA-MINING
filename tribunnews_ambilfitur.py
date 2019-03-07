@@ -1,5 +1,5 @@
 import sqlite3
-conn = sqlite3.connect('berita.db')
+conn = sqlite3.connect('tribunnews.db')
 c = conn.cursor()
 
 c.execute('SELECT * FROM berita_gresik')
