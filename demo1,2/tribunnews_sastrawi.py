@@ -1,20 +1,14 @@
+
 import re
 import tribunnews_ambilfitur
-import tribunnews_cekkamus
-import tribunnews_cekstopword
+
 
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
 
-import xlsxwriter
-
 data = []
 kumpulan_katadasar = ""
 a=0
-
-workbook = xlsxwriter.Workbook('tribunnews_daftarsteaming.xlsx')
-worksheet1 = workbook.add_worksheet()
-
 for kalimat in tribunnews_ambilfitur.data:
     a+=1
     print (a,">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
@@ -32,32 +26,9 @@ for kalimat in tribunnews_ambilfitur.data:
     stemmer = factory.create_stemmer()
     katadasar = stemmer.stem(str(kalimat))
     katadasar = re.sub(r'\b\w{1,3}\b', '', katadasar).replace('-','')
-
-    #seleksifitur
-    temp_katadasar=''
-    kalimat = katadasar.split(" ")
-    for kata in kalimat:
-        if (kata==""):
-            continue
-
-        elif (tribunnews_cekkamus.cek_kata(kata)==True and tribunnews_cekstopword.cek_kata(kata)==True):
-            print ("y>>",kata)
-            temp_katadasar=temp_katadasar+kata.strip()+" "
-        else:
-            print ("n >>", kata)
-            continue
-        #print (temp_katadasar)
-
     print(katadasar)
-    print (temp_katadasar)
-    data.append(temp_katadasar)
-
-    kumpulan_katadasar = kumpulan_katadasar + temp_katadasar
-
-    worksheet1.write(a, 1, str(kalimat))
-    worksheet1.write(a, 2, str(temp_katadasar))
-
-workbook.close()
+    data.append(katadasar)
+    kumpulan_katadasar = kumpulan_katadasar + katadasar
 
 temp = {}
 kal = kumpulan_katadasar.split(" ")

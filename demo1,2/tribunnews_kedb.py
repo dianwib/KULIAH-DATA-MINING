@@ -1,16 +1,16 @@
-import url_2
+import tribunnews_url
 from bs4 import BeautifulSoup
 
-soup=BeautifulSoup(url_2.html,"lxml")
+soup=BeautifulSoup(tribunnews_url.html,"lxml")
 
 import sqlite3
-conn = sqlite3.connect('berita.db')
+conn = sqlite3.connect('tribunnews.db')
 c = conn.cursor()
 
 # Create table
 c.execute('DROP TABLE IF EXISTS berita_gresik')
 c.execute('''CREATE TABLE IF NOT EXISTS berita_gresik
-             (tanggal VARCHAR, judul VARCHAR, isi VARCHAR)''')
+             (tanggal VARCHAR, judul VARCHAR)''')
 conn.commit()
 
 # Insert a row of data
@@ -40,8 +40,8 @@ for p in produk:
     isi=isi.strip()
     print(isi)
     c.execute(
-        "INSERT INTO berita_gresik (tanggal, judul,isi) values ( ?, ?,?)",
-        (waktu,berita,isi))
+        "INSERT INTO berita_gresik (tanggal, judul) values ( ?, ?)",
+        (waktu,berita))
     conn.commit()
 
 conn.close()

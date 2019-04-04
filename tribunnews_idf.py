@@ -13,7 +13,7 @@ data.ncols = jumlah kolom
 
 def banyak_kata():
     frekuensi_list = []
-    for baris in range(1,sheetdata.nrows):
+    for baris in range(1,3):
         dict_data={}
         for kolom in range(1,sheetdata.ncols):
             value = sheetdata.cell_value(rowx=baris, colx=kolom)
@@ -46,50 +46,45 @@ def panjang_tiap_data(baris):
 
 
 def hitung_tf():
-    workbook = xlsxwriter.Workbook('tribunnews_tf.xlsx')
-    worksheettf = workbook.add_worksheet()
     tf_number=[]
 
     for data in banyak_kata():
         id = data["doc_id"]
-        print (id)
-        kolom=1
+        #print (id)
+
         for i in data["frekuensi"]:
-            
             temp={"doc_id":id, "TF score":data["frekuensi"][i]/panjang_tiap_data(id),"key":i}
-            fitur=float(data["frekuensi"][i]/panjang_tiap_data(id))
-            worksheettf.write(id,kolom,fitur)
+
             tf_number.append(temp)
-            kolom+=1
-
-
-
-    
-   
-    workbook.close()
 
     return tf_number
-print (hitung_tf())
 
 def hitung_idf():
+    workbook = xlsxwriter.Workbook('tribunnews_idf.xlsx')
+    worksheetidf = workbook.add_worksheet()
     idf_number=[]
     iterasi=1
 
     for data in banyak_kata():
         id = data["doc_id"]
+        print (id)
+        kolom = 1
 
         for i in data["frekuensi"].keys():
             count=sum([i in data["frekuensi"] for data in banyak_kata()])
             #print (data)
             #print (panjang_tiap_data(id))
             #print (count)
+            fitur= float(math.log(panjang_tiap_data(id))/count)
             temp={"doc_id":iterasi,"IDF score": math.log(panjang_tiap_data(id))/count,"key":i}
-
+            worksheetidf.write(iterasi, kolom, fitur)
             idf_number.append(temp)
+            kolom+=1
 
         iterasi+=1
+    workbook.close()
     return idf_number
-
+print (hitung_idf())
 
 def hitung_tfidf():
     tfidf_number=[]
@@ -102,5 +97,8 @@ def hitung_tfidf():
         tfidf_number.append(temp)
 
     return tfidf_number
+
+
+
 
 

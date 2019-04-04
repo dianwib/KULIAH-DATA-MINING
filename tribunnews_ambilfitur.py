@@ -1,3 +1,4 @@
+
 import sqlite3
 conn = sqlite3.connect('tribunnews.db')
 c = conn.cursor()
@@ -14,8 +15,6 @@ for row in rows:
         baris=baris+j+" "
 
     data.append(baris)
-
-
 
 #for i in data:
 #    print i

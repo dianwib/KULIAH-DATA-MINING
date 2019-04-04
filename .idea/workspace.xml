@@ -2,22 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b519870-f87c-494e-812e-145a0e5b5033" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ambildb_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kedb_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kmean_clustering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/silhout_cmean.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/silhout_kmean.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_sastrawi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tribunnews_ambilfitur.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tribunnews_cmean.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tribunnews_kedb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tribunnews_keexcel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tribunnews_kmean.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tribunnews_sastrawi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tribunnews_url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/url_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cekhapus_fitur.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hapus_fitur.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tribunnews_cekkamus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tribunnews_cekstopword.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tribunnews_kmean(1100fitur).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tribunnews_kmeanwithAllPCA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tribunnews_kmeanwithPCA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tribunnews_sastrawi_pilihfrekuaensiseringmuncul.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beutiful_liatdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/beutiful_liatdb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.~tribunnews_rabu.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Otomart.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Otomart.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ambildb_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/berita.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beutiful_kedb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beutiful_liatdb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beutiful_url.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/databerita.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/databerita_gresik.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kedb_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kmean_clustering.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/liat_data.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otomart.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/silhout_cmean.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/silhout_cmean.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/silhout_kmean.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_sastrawi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribunnews.db" beforeDir="false" afterPath="$PROJECT_DIR$/tribunnews.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribunnews_ambilfitur.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribunnews_ambilfitur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribunnews_cmean.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribunnews_cmean.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribunnews_kedb.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribunnews_kedb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribunnews_keexcel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribunnews_kmean.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribunnews_kmean.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribunnews_kmean_silhout.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribunnews_rabu.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribunnews_sastrawi.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribunnews_sastrawi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribunnews_silhout_cmean.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribunnews_silhout_kmean.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribunnews_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribunnews_url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/url_2.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,101 +55,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tribunnews_url.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tribunnews_kmeanwithAllPCA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="78" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
+            <state relative-caret-position="150">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <folding>
+                <element signature="e#1#71#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tribunnews_kedb.py">
+        <entry file="file://$PROJECT_DIR$/tribunnews_kmeanwithPCA.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <folding>
+                <element signature="e#1#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tribunnews_kmean(1100fitur).py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tribunnews_ambilfitur.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tribunnews_sastrawi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tribunnews_kmean.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tribunnews_keexcel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="3" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/silhout_kmean.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tribunnews_cmean.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="282" column="21" lean-forward="true" selection-start-line="282" selection-start-column="21" selection-end-line="282" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/silhout_cmean.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="38" lean-forward="true" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+              <caret column="71" selection-start-column="71" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -147,6 +109,20 @@
       <find>.xls</find>
       <find>silhout</find>
       <find>.xl</find>
+      <find>test.</find>
+      <find>mada</find>
+      <find>data</find>
+      <find>data.</find>
+      <find>pinjam</find>
+      <find>kabu</find>
+      <find>andr</find>
+      <find>temp</find>
+      <find>temp_</find>
+      <find>war</find>
+      <find>warga</find>
+      <find>fre</find>
+      <find>atesting</find>
+      <find>Worksheet</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,7 +131,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../../SEM 5/DATA MINING/demo kmean/latkmean.py" />
+        <option value="$USER_HOME$/SEM 5/DATA MINING/demo kmean/latkmean.py" />
         <option value="$PROJECT_DIR$/beautipul.py" />
         <option value="$PROJECT_DIR$/exspor_ke_csv.py" />
         <option value="$PROJECT_DIR$/latihan_scrapy.py" />
@@ -168,24 +144,36 @@
         <option value="$PROJECT_DIR$/kedb_2.py" />
         <option value="$PROJECT_DIR$/test_sastrawi.py" />
         <option value="$PROJECT_DIR$/kmean_clustering.py" />
-        <option value="$PROJECT_DIR$/tribunnews_kmean.py" />
         <option value="$PROJECT_DIR$/tribunnews_cmean.py" />
         <option value="$PROJECT_DIR$/silhout_cmean.py" />
         <option value="$PROJECT_DIR$/silhout_kmean.py" />
-        <option value="$PROJECT_DIR$/tribunnews_keexcel.py" />
-        <option value="$PROJECT_DIR$/tribunnews_ambilfitur.py" />
         <option value="$PROJECT_DIR$/ambildb_2.py" />
         <option value="$PROJECT_DIR$/tribunnews_kedb.py" />
-        <option value="$PROJECT_DIR$/tribunnews_url.py" />
+        <option value="$PROJECT_DIR$/latkamus.py" />
+        <option value="$PROJECT_DIR$/kbbi.py" />
+        <option value="$PROJECT_DIR$/tribunnews_cekkamus.py" />
+        <option value="$PROJECT_DIR$/tribunnews_ambilfitur.py" />
+        <option value="$PROJECT_DIR$/tribunnews_keexcel.py" />
         <option value="$PROJECT_DIR$/tribunnews_sastrawi.py" />
+        <option value="$PROJECT_DIR$/tribunnews_cekstopword.py" />
+        <option value="$PROJECT_DIR$/hapus_fitur.py" />
+        <option value="$PROJECT_DIR$/cekhapus_fitur.py" />
+        <option value="$PROJECT_DIR$/tribunnews_url.py" />
+        <option value="$PROJECT_DIR$/tribunnews_sastrawi_pilihfrekuaensiseringmuncul.py" />
+        <option value="$PROJECT_DIR$/tribunnews_tf.py" />
+        <option value="$PROJECT_DIR$/tribunnews_kmean.py" />
+        <option value="$PROJECT_DIR$/tribunnews_kmean(1100fitur).py" />
+        <option value="$PROJECT_DIR$/tribunnews_kmeanwithPCA.py" />
+        <option value="$PROJECT_DIR$/tribunnews_kmeanwithAllPCA.py" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-48" />
-    <option name="y" value="67" />
-    <option name="width" value="1098" />
-    <option name="height" value="701" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="179" />
+    <option name="y" value="123" />
+    <option name="width" value="1078" />
+    <option name="height" value="559" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -215,7 +203,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_sastrawi.py" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -231,8 +220,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tribunnews_sastrawi">
-    <configuration name="silhout_kmean" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WEB MINING" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,49 +233,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/silhout_kmean.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tribunnews_cmean" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="WEB MINING" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tribunnews_cmean.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tribunnews_keexcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="WEB MINING" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tribunnews_keexcel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -316,7 +263,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tribunnews_sastrawi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tribunnews_kmean(1100fitur)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WEB MINING" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,7 +275,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tribunnews_sastrawi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tribunnews_kmean(1100fitur).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tribunnews_kmeanwithAllPCA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WEB MINING" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tribunnews_kmeanwithAllPCA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tribunnews_kmeanwithPCA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WEB MINING" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tribunnews_kmeanwithPCA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -338,19 +327,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.tribunnews_sastrawi" />
-      <item itemvalue="Python.tribunnews_keexcel" />
+      <item itemvalue="Python.test" />
       <item itemvalue="Python.tribunnews_kmean" />
-      <item itemvalue="Python.silhout_kmean" />
-      <item itemvalue="Python.tribunnews_cmean" />
+      <item itemvalue="Python.tribunnews_kmean(1100fitur)" />
+      <item itemvalue="Python.tribunnews_kmeanwithAllPCA" />
+      <item itemvalue="Python.tribunnews_kmeanwithPCA" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tribunnews_sastrawi" />
-        <item itemvalue="Python.silhout_kmean" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.tribunnews_kmeanwithAllPCA" />
+        <item itemvalue="Python.tribunnews_kmeanwithPCA" />
+        <item itemvalue="Python.tribunnews_kmean(1100fitur)" />
         <item itemvalue="Python.tribunnews_kmean" />
-        <item itemvalue="Python.tribunnews_cmean" />
-        <item itemvalue="Python.tribunnews_keexcel" />
       </list>
     </recent_temporary>
   </component>
@@ -368,15 +357,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1414743" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47882736" visible="true" weight="0.17721519" />
+      <window_info id="Structure" order="1" sideWeight="0.52117264" side_tool="true" visible="true" weight="0.17721519" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41530946" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5553746" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -389,34 +378,9 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1414743" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41530946" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../SEM 5/DATA MINING/demo kmean/latkmean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/SEM 5/DATA MINING/demo kmean/latkmean.py" />
     <entry file="file:///usr/local/lib/python2.7/dist-packages/pandas/core/internals/construction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -440,13 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="139" column="172" lean-forward="true" selection-start-line="139" selection-start-column="172" selection-end-line="139" selection-end-column="172" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beutiful_url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="55" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -515,61 +472,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tribunnews_url.py">
+    <entry file="file://$PROJECT_DIR$/tribunnews_cmean.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="78" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tribunnews_ambilfitur.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tribunnews_kedb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tribunnews_keexcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="3" selection-end-line="10" />
+        <state relative-caret-position="4230">
+          <caret line="282" column="21" selection-start-line="282" selection-start-column="21" selection-end-line="282" selection-end-column="21" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/silhout_cmean.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="38" lean-forward="true" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tribunnews_cmean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="282" column="21" lean-forward="true" selection-start-line="282" selection-start-column="21" selection-end-line="282" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tribunnews_kmean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="55" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -578,20 +494,200 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/silhout_kmean.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/kbbi/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/kbbi/kbbi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="324" lean-forward="true" selection-end-line="324" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#236#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/latkamus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kbbi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#236#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tribunnews_ambilfitur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tribunnews_keexcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beutiful_url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cekhapus_fitur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tribunnews_cekkamus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tribunnews_cekstopword.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tribunnews_url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/dist-packages/xlrd/sheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="414" selection-start-line="414" selection-end-line="414" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tribunnews_kedb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tribunnews_sastrawi_pilihfrekuaensiseringmuncul.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="107" column="40" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tribunnews_tf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="99" column="21" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tribunnews_kmean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hapus_fitur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="537" column="16" selection-start-line="537" selection-start-column="16" selection-end-line="537" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#1#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tribunnews_kmean(1100fitur).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="71" selection-start-column="71" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tribunnews_kmeanwithPCA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="e#1#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tribunnews_sastrawi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tribunnews_kmeanwithAllPCA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#1#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
