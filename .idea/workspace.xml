@@ -1,52 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b519870-f87c-494e-812e-145a0e5b5033" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cekhapus_fitur.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hapus_fitur.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tribunnews_cekkamus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tribunnews_cekstopword.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tribunnews_kmean(1100fitur).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tribunnews_kmeanwithAllPCA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tribunnews_kmeanwithPCA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tribunnews_sastrawi_pilihfrekuaensiseringmuncul.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.~tribunnews_rabu.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Otomart.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Otomart.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ambildb_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/berita.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/beutiful_kedb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/beutiful_liatdb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/beutiful_url.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/databerita.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/databerita_gresik.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kedb_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kmean_clustering.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/liat_data.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/otomart.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/silhout_cmean.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/silhout_cmean.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/silhout_kmean.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_sastrawi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribunnews.db" beforeDir="false" afterPath="$PROJECT_DIR$/tribunnews.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribunnews_ambilfitur.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribunnews_ambilfitur.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribunnews_cmean.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribunnews_cmean.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribunnews_kedb.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribunnews_kedb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribunnews_keexcel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribunnews_kmean.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribunnews_kmean.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribunnews_kmean_silhout.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribunnews_rabu.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribunnews_sastrawi.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribunnews_sastrawi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribunnews_silhout_cmean.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribunnews_silhout_kmean.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribunnews_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribunnews_url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/url_2.py" beforeDir="false" />
-    </list>
+    <list default="true" id="3b519870-f87c-494e-812e-145a0e5b5033" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="179" />
     <option name="y" value="123" />
     <option name="width" value="1078" />
@@ -357,7 +312,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="7" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47882736" visible="true" weight="0.17721519" />
