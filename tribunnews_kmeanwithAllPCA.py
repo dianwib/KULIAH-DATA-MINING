@@ -8,7 +8,7 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
 
-banyak_pca = list(range(1, 6))
+banyak_pca = list(range(1, 149))
 dict_temp={}
 for n_pca in banyak_pca:
 

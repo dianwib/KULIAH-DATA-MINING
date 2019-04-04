@@ -9,7 +9,7 @@ data.ncols = jumlah kolom
 '''
 
 
-workbook = xlsxwriter.Workbook('tribunnews_vsmsatufitur1.xlsx')
+workbook = xlsxwriter.Workbook('tribunnews_vsmsatufitur.xlsx')
 worksheet1 = workbook.add_worksheet()
 
 data=[]
