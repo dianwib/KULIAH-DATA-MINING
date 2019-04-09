@@ -167,24 +167,7 @@ def K_mean(data):
 
 while True:
     print ("""\t\t\t
-            >>>  Model Based Ranking:
-                 Kita dapat menyesuaikan classfier untuk setiap fitur dan memberi peringkat kekuatan prediksi.
-                 Metode ini memilih fitur yang paling kuat secara individual tetapi diabaikan
-                 kekuatan prediksi ketika fitur digabungkan. Metode Random Forest digunakan dalam 
-                 kasus ini karena kuat, nonlinier, dan tidak memerlukan penskalaan.
-
-                 UFS (Univariate Feature Selection):
-                 Digunakan untuk memilih fitur terbaik dengan menjalankan statistik univariate
-                 tes seperti uji chi-squared, uji F-1, dan mutual information.
-
-                 RFE (Rekursif Feature Extraction):
-                 Metode ini berjalan secara rekursif memilih subset penting dari fitur berdasarkan 
-                 pada atribut bawaan seperti koefisien atau kepentingan fitur dari estimator yang diberikan.
-
-                 Kesimpulan :
-                 Untuk Feature Selection, diperlukan penggabungan beberapa teknik ini dalam kombinasi dan cross validation
-                 harus memberikan hasil yang bagus. Untuk Ranking Feature, penting untuk berhati-hati dalam memilih setiap metode.
-
+            
               1. RFE model LinierRegresion                         
               2. RFE model RandomForest
               3. UFS model chi^2

@@ -17,7 +17,7 @@ dataframe = pd.read_csv('baru_tfidv.csv', encoding='utf-8', skiprows=0, index_co
 
 df = dataframe.copy(deep=True)
 
-banyak_cluster = list(range(2, 5))
+banyak_cluster = list(range(2, 150))
 print ("Kmeans kluster dari 2 to 149: ", banyak_cluster)
 
 temp=[]

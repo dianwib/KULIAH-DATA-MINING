@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b519870-f87c-494e-812e-145a0e5b5033" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/baru_withpca.csv" beforeDir="false" afterPath="$PROJECT_DIR$/baru_withpca.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribunnews_KmeanSeleksiFitur(RFE,UFS,BasedRanking).py" beforeDir="false" afterPath="$PROJECT_DIR$/tribunnews_KmeanSeleksiFitur(RFE,UFS,BasedRanking).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribunnews_kmean(1100fitur).py" beforeDir="false" afterPath="$PROJECT_DIR$/tribunnews_kmean(1100fitur).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tribunnews_kmeanwithAllPCA.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribunnews_kmeanwithAllPCA.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tribunnews_kmeanwithAllPCA.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
                 <element signature="e#1#71#0" expanded="true" />
               </folding>
@@ -28,11 +29,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="166" selection-end-line="209" selection-end-column="13" />
+            <state relative-caret-position="46">
+              <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
               <folding>
                 <element signature="e#0#71#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tribunnews_kmean(1100fitur).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -41,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/tribunnews_KmeanSeleksiFitur(RFE,UFS,BasedRanking).py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <caret line="169" column="12" selection-start-line="169" selection-start-column="12" selection-end-line="169" selection-end-column="12" />
               <folding>
                 <element signature="e#0#71#0" expanded="true" />
               </folding>
@@ -125,12 +135,12 @@
         <option value="$PROJECT_DIR$/tribunnews_tf.py" />
         <option value="$PROJECT_DIR$/tribunnews_kmean.py" />
         <option value="$PROJECT_DIR$/tribunnews_tfidv.py" />
-        <option value="$PROJECT_DIR$/tribunnews_kmean(1100fitur).py" />
         <option value="$PROJECT_DIR$/tribunnews_featureRanking(RandomForest).py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/tribunnews_kmeanwithPCA.py" />
-        <option value="$PROJECT_DIR$/tribunnews_KmeanSeleksiFitur(RFE,UFS,BasedRanking).py" />
         <option value="$PROJECT_DIR$/tribunnews_kmeanwithAllPCA.py" />
+        <option value="$PROJECT_DIR$/tribunnews_KmeanSeleksiFitur(RFE,UFS,BasedRanking).py" />
+        <option value="$PROJECT_DIR$/tribunnews_kmean(1100fitur).py" />
       </list>
     </option>
   </component>
@@ -329,12 +339,12 @@
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4719388" visible="true" weight="0.17721519" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4719388" visible="true" weight="0.17721519" />
       <window_info id="Structure" order="1" sideWeight="0.5280612" side_tool="true" weight="0.17721519" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.54723126" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.54723126" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -531,23 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tribunnews_kmean(1100fitur).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="166" selection-end-line="209" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tribunnews_kmeanwithPCA.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -568,23 +561,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/klustering_allPCA.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tribunnews_kmeanwithAllPCA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#1#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tribunnews_KmeanSeleksiFitur(RFE,UFS,BasedRanking).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <caret line="169" column="12" selection-start-line="169" selection-start-column="12" selection-end-line="169" selection-end-column="12" />
           <folding>
             <element signature="e#0#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tribunnews_kmeanwithAllPCA.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="46">
+          <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
           <folding>
-            <element signature="e#1#71#0" expanded="true" />
+            <element signature="e#0#71#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tribunnews_kmean(1100fitur).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>

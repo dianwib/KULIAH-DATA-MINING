@@ -8,7 +8,7 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
 
-banyak_pca = list(range(3, 5))
+banyak_pca = list(range(3, 150))
 dict_temp={}
 temp_kluster=[]
 temp_silhout=[]
