@@ -177,14 +177,21 @@ while True:
 
               """)
     cek = int(input("pilih model feature ranking: "))
-    n_ranking = int(input("Pilih banyak ranking: "))
     if cek == 1:
+
+        n_ranking = int(input("Pilih banyak ranking: "))
         RFE(1, n_ranking)
     elif cek == 2:
+
+        n_ranking = int(input("Pilih banyak ranking: "))
         RFE(2, n_ranking)
     elif cek == 3:
+
+        n_ranking = int(input("Pilih banyak ranking: "))
         UFS(1, n_ranking)
     elif cek == 4:
+
+        n_ranking = int(input("Pilih banyak ranking: "))
         UFS(2, n_ranking)
     elif cek == 5:
         RandomForest()
