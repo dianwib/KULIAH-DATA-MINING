@@ -8,11 +8,11 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
 
-banyak_pca = list(range(1, 149))
+banyak_pca = list(range(3, 149))
 dict_temp={}
 for n_pca in banyak_pca:
 
-    dataframe = pd.read_csv('baru.csv', encoding='utf-8', skiprows=0, index_col=0, sep=',')
+    dataframe = pd.read_csv('baru_tfidv.csv', encoding='utf-8', skiprows=0, index_col=0, sep=',')
     df = dataframe.copy(deep=True)
 
     pca = PCA(n_components=n_pca)
@@ -31,7 +31,7 @@ for n_pca in banyak_pca:
 
     df = dataframe.copy(deep=True)
 
-    banyak_cluster = list(range(2, 149))
+    banyak_cluster = list(range(2, 150))
 
     temp = []
     temp2=[]
@@ -53,3 +53,12 @@ for n_pca in banyak_pca:
     print("PCA > ",n_pca," terbaik pada ",dict_temp[n_pca])
 
 
+
+baru=pd.DataFrame(columns=['n_PCA','kluster','silhout'])
+baru['n_PCA']=banyak_pca
+baru['kluster']=banyak_cluster
+baru['silhout']=temp
+
+print (baru.head())
+
+baru.to_csv('klustering_allPCA.csv')

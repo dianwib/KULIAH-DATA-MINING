@@ -7,7 +7,7 @@ from sklearn.metrics import  silhouette_score
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
-dataframe=pd.read_csv('baru.csv',encoding='utf-8',skiprows=0,index_col=0,sep=',')
+dataframe=pd.read_csv('baru_tfidv.csv',encoding='utf-8',skiprows=0,index_col=0,sep=',')
 df=dataframe.copy(deep=True)
 
 pca=PCA(n_components=6)
@@ -24,7 +24,7 @@ dataframe = pd.read_csv('baru_withpca.csv', encoding='utf-8', skiprows=0, index_
 
 df = dataframe.copy(deep=True)
 
-banyak_cluster = list(range(2, 149))
+banyak_cluster = list(range(2, 150))
 print ("Kmeans kluster dari 2 to 149: ", banyak_cluster)
 
 temp=[]
@@ -42,3 +42,12 @@ for n_cluster in banyak_cluster:
 print ("kluster terbaik")
 print ("kluster ke > "+str(temp.index(max(temp))+2)+" >silhout> "+str(max(temp)))
 
+
+
+baru=pd.DataFrame(columns=['kluster','silhout'])
+baru['kluster']=banyak_cluster
+baru['silhout']=temp
+
+print (baru.head())
+
+baru.to_csv('klustering_1099fitur_6PCA.csv')
