@@ -1,12 +1,12 @@
 160411100044 _ Dian Wibowo
 
-KULIAH WEB MINING 2019
+**KULIAH WEB MINING 2019**
 
-python2.7 (csv,BeautifulSoup4,xlsxwriter,xlrd,pandas,numpy,sklearn,sastrawi,sqlite3),database kamus bhs indo, tambahan stopword.
+python2.7 (csv,BeautifulSoup4,xlsxwriter,xlrd,pandas,numpy,sklearn,sastrawi,sqlite3), database kamus besar bahasa indonesia, tambahan stopword.
 
-Crawling web "http://surabaya.tribunnews.com/topic/berita-gresik?&page=?" sebanyak 5 page dengan rincian 1 page menampung 30 berita, jadi total dokumen /berita yang di crawling sekitar 150 dokumen.
+Crawling web *"http://surabaya.tribunnews.com/topic/berita-gresik?&page=?"* sebanyak 5 page dengan rincian 1 page menampung 30 berita, jadi total dokumen /berita yang di crawling sekitar 150 dokumen.
 
-Tujuan :
+**Tujuan :**
 
 Melakukan Clustering atau pengelompokan berita berdasarkan single ngram (satu kata /fitur yang terdapat pada berita).
 
@@ -16,11 +16,9 @@ Melakukan Clustering atau pengelompokan berita berdasarkan single ngram (satu ka
 
 
 
-Proses:
+**Proses:**
 
-1. Crawling merupakan proses pengambilan data (text) dari sebuah website
-
-   menggunakan library (urllib,Beautifulsoup).
+1. ***Crawling*** merupakan proses pengambilan data (text) dari sebuah website menggunakan library python (urllib,Beautifulsoup).
 
    File:
 
@@ -34,7 +32,7 @@ Proses:
       kumpulan_link=[]
       ```
 
-      code diatas digunakan untuk membuat file excel baru yang bernama 'tribunnews_daftarlinkberita.xlsx' yang digunakan untuk menyimpan setiap url link berita pada setiap page berita.
+      code diatas digunakan untuk membuat file excel baru yang bernama '*tribunnews_daftarlinkberita.xlsx'* yang digunakan untuk menyimpan setiap url link berita pada setiap page berita.
 
       ```
       def cari_link(page):
@@ -52,7 +50,7 @@ Proses:
           soup = BeautifulSoup(html_page, "lxml")
       ```
 
-      code diatas merupakan proses crawling menggunakan library beautifulsoup4 untuk kemudian dikonversi ke dalam tag lxml(html) agar memudahkan kita dalam melakukan filter data yang akan diambil ketika proses crawling, pada website http://surabaya.tribunnews.com/topic/berita-gresik?&page="+str(page), "str(page)" merupakan sebuah value dimana program akan melakukan crawling sebanyak nilai dari variabel page yang diinputkan oleh user.  
+      code diatas merupakan proses crawling menggunakan library beautifulsoup4 untuk kemudian dikonversi ke dalam tag lxml(html) agar memudahkan kita dalam melakukan filter data yang akan diambil ketika proses crawling, pada website *http://surabaya.tribunnews.com/topic/berita-gresik?&page="+str(page)*, "<u>str(page)"</u> merupakan sebuah value dimana program akan melakukan crawling sebanyak nilai dari variabel page yang diinputkan oleh user.  
 
       ```
        for a in soup.findAll('h3', 'f20 ln24 fbo'):
@@ -61,7 +59,7 @@ Proses:
                   kumpulan_link.append(link.get('href'))
       ```
 
-      code diatas digunakan untuk mengambil value data (url/link) berita pada tag html yang mengandung attribut "href" pada setiap page halaman website.
+      code diatas digunakan untuk mengambil value data (url/link) berita pada tag html yang mengandung attribut "*href*" pada setiap page halaman website.
 
       ```
       for i in range(1,6):
@@ -75,7 +73,7 @@ Proses:
       workbook.close()
       ```
 
-      code diatas digunakan untuk menjalankan fungsi crawling data sebanyak 5 page (1-5) website. dimana setiap page akan diambil 30 value (url/link) berita lalu akan di simpan ke dalam file excel yang telah di donlot tadi.
+      code diatas digunakan untuk menjalankan fungsi crawling data sebanyak 5 page (1-5) website. dimana setiap page akan diambil 30 value (url/link) berita lalu akan di simpan ke dalam file excel yang telah di downlot tadi.
 
       total data yang diambil adalah 150 dokumen dengan rincian @page terdapat 30 berita.
 
@@ -126,9 +124,9 @@ Proses:
           isi=isi.strip()
       ```
 
-      code diatas digunakan untuk melakukan crawling data judul dan isi berita pada setiap url/link berita dimana untuk melakukan pengambilan judul dilakukan filter pada tag html  ('h1', 'f50 black2 f400 crimson'), dan mengambil isi berita pada tag html ('div', 'side-article txt-article').
+      code diatas digunakan untuk melakukan crawling data judul dan isi berita pada setiap url/link berita dimana untuk melakukan pengambilan judul dilakukan filter pada tag html  *('h1', 'f50 black2 f400 crimson')*, dan mengambil isi berita pada tag html *('div', 'side-article txt-article')*.
 
-2. Prepocessing  merupakan proses seleksi kata / data yang akan di proses
+2. **Prepocessing**  merupakan proses seleksi kata / data yang akan di proses
 
    Tahapan:
 
@@ -172,7 +170,7 @@ Proses:
 
       
 
-3. Penjabaran matrik VSM merupakan proses perhitungan / frekuensi kemunculan semua kata yang terdapat pada setiap dokumen ke dalam bentuk matrik.
+3. **Penjabaran matrik VSM** merupakan proses perhitungan / frekuensi kemunculan semua kata yang terdapat pada setiap dokumen ke dalam bentuk matrik.
 
    File:
 
@@ -213,7 +211,7 @@ Proses:
 
    
 
-4. Perhitungan TF_IDV merupakan proses menghitung pembobotan kata dalam suatu dokumen dan menjadikan ke bentuk terstruktur.
+4. P**erhitungan TF_IDV** merupakan proses menghitung pembobotan kata dalam suatu dokumen dan menjadikan ke bentuk terstruktur.
 
    File:
 
@@ -244,11 +242,11 @@ Proses:
 
       format (.csv) digunakan untuk mempermudah melakukan operasi data science pada python dengan dikombinasikan dengan library pandas dll.
 
-5. Seleksi Fitur merupakan proses penghapusan beberapa fitur yang dianggap tidak terlalu berpengaruh pada model, tujuan dari seleksi fitur adalah: 
+5. **Seleksi Fitur** merupakan proses penghapusan beberapa fitur yang dianggap tidak terlalu berpengaruh pada model, tujuan dari seleksi fitur adalah: 
 
-   1. pertama kita akan membuat model yang akan kita buat menjadi lebih simple untuk di tafsirkan karena hanya menggunkan fitur yang dianggap penting saja serta tidak perlu menggunakan keseluruhan fitur jika itu berjumlah ribuan ataupun jutaan
+   1. pertama kita akan membuat model yang akan kita buat menjadi lebih simple untuk di tafsirkan karena hanya menggunkan fitur yang dianggap penting saja serta tidak perlu menggunakan keseluruhan fitur jika itu berjumlah ribuan ataupun jutaan.
 
-   2. kedua mengurangi proses komputasi
+   2. kedua mengurangi proses komputasi.
 
        
 
@@ -256,7 +254,7 @@ Proses:
 
    1. *PCA (Principal Component Analysis):* 
 
-      Merupakan metode penyusutan / penyederhanaan fitur dari total keseluruhan fitur
+      Merupakan metode penyusutan / penyederhanaan fitur dari total keseluruhan fitur.
 
    2. *Model Based Ranking:* 
 
@@ -281,17 +279,15 @@ Proses:
 
    ​          
 
-6. Clustering merupakan proses pengelompokan data berdasarkan kemiripan fitur tertentu
+6. **Clustering** merupakan proses pengelompokan data berdasarkan kemiripan fitur tertentu
 
 Metode:
 
-1. Kmean Clustering
-
-
+1. Kmean Clustering merupakan salah satu algoritma untuk melakukan clustering. Fungsi algoritma ini yaitu untuk membagi data menjadi beberapa kelompok berdasarkan class inputan yang diterima / jumlah kelompok (cluster) yang diinginkan. Algoritma ini akan mengelompokkan data atau objek ke dalam adalah data atau objek kedalam setiap class .
 
 File :
 
-1. tribunnews_KmeanSeleksiFitur(RFE,UFS,BasedRanking) .
+- tribunnews_KmeanSeleksiFitur(RFE,UFS,BasedRanking) .
 
    1. melakukan clustering dengan total corpus (total data) asli sebanyak 1099 fitur.
 
@@ -420,7 +416,7 @@ File :
 
    
 
-2. tribunnews_kmean(1100fitur) >> melakukan clustering dengan total corpus (total data) asli sebanyak 1099 fitur untuk mencari silhoute terbaik.
+- tribunnews_kmean(1100fitur) >> melakukan clustering dengan total corpus (total data) asli sebanyak 1099 fitur untuk mencari silhoute terbaik.
 
    ```
    banyak_cluster = list(range(2, 150))
@@ -441,7 +437,7 @@ File :
 
    pada cluster tertentu.
 
-3. tribunnews_kmeanwithAllPCA >> mencari berapa nilai jumlah PCA yang memiliki nilai  silhoute terbaik dalam melakukan clustering dengan total corpus (total data) asli sebanyak 1099 fitur.
+- tribunnews_kmeanwithAllPCA >> mencari berapa nilai jumlah PCA yang memiliki nilai  silhoute terbaik dalam melakukan clustering dengan total corpus (total data) asli sebanyak 1099 fitur.
 
    ```
    banyak_pca = list(range(3, 150))
@@ -512,8 +508,8 @@ File :
 
    <u>*Kesimpulan Project :*</u>
 
-1. nilai silhoute terbaik saat menggunkan 1099 fitur adalah < 0.1,
-2. nilai silhoute terbaik saat dilakukan seleksi fitur mengunakan Random Forest dengan n_estimator 5 mencapai  < 0.3,
-3. nilai silhoute terbaik saat dilakukan seleksi fitur mengunakan Random Forest dengan n_estimator 50 mencapai  +-0.6,
-4. nilai silhoute terbaik saat dilakukan penyusutan fitur menggunkan PCA mencapai  <  0.4 (nilai terbaik dengan menggunakan 6 PCA pada kluster ke 8 / dengan 4 PCA pada kluster ke 6).
+- nilai silhoute terbaik saat menggunkan 1099 fitur adalah < 0.1,
+- nilai silhoute terbaik saat dilakukan seleksi fitur mengunakan Random Forest dengan n_estimator 5 mencapai  < 0.3,
+- nilai silhoute terbaik saat dilakukan seleksi fitur mengunakan Random Forest dengan n_estimator 50 mencapai  +-0.6,
+- nilai silhoute terbaik saat dilakukan penyusutan fitur menggunkan PCA mencapai  <  0.4 (nilai terbaik dengan menggunakan 6 PCA pada kluster ke 8 / dengan 4 PCA pada kluster ke 6).
 
