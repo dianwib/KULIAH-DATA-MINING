@@ -1,10 +1,10 @@
 160411100044 _ Dian Wibowo
 
-KULIAH WEB MINING 2019
+KULIAH WEB MINING 2019tribunnews_kedb
 
-python2.7 (csv,BeautifulSoup4,xlsxwriter,xlrd,pandas,numpy,sklearn,sastrawi,sqlite3),database kamus bhs indo, tambahan stopword.
+python2.7(csv,BeautifulSoup4,xlsxwriter,xlrd,pandas,numpy,sklearn,sastrawi,sqlite3),database kamus bhs indo, tambahan stopword
 
-Crawling web "http://surabaya.tribunnews.com/topic/berita-gresik?&page=?" sebanyak 5 page dengan rincian 1 page menampung 30 berita, jadi total dokumen /berita yang di crawling sekitar 150 dokumen.
+Crawling web "http://surabaya.tribunnews.com/topic/berita-gresik?&page=?" sebanyak 5 page dengan rincian 1 page menampung 30 berita, jadi total dokumen /berita yang di crawling sekitar 150 dokumen
 
 Tujuan :
 
@@ -279,6 +279,7 @@ Proses:
 
       Semakin banyak n_estimator / tree (pohon keputusan) pada Random Forest maka akan memerlukan waktu komputasi yang lama menghasilkan nilai yang bagus / akurat. begitu pula sebaliknya jika menggunakan n_estimator sedikit.
 
+
    ​          
 
 6. Clustering merupakan proses pengelompokan data berdasarkan kemiripan fitur tertentu
@@ -422,20 +423,19 @@ File :
 
 2. tribunnews_kmean(1100fitur) >> melakukan clustering dengan total corpus (total data) asli sebanyak 1099 fitur untuk mencari silhoute terbaik.
 
-   ```
-   banyak_cluster = list(range(2, 150))
-   for n_cluster in banyak_cluster:
-       clusterer = KMeans(n_clusters=n_cluster)
-       preds = clusterer.fit_predict((df))centers = clusterer.cluster_centers_
-   score = silhouette_score(df, preds, metric='euclidean')
-   temp.append(score)
-   temp_pred.append(preds)
-   
-   # print ("Untuk kluster={},silhoute score :{} ".format(n_cluster, repr(score)))
-   # print(preds)
-   print ("kluster terbaik")
-   print ("kluster ke > " + str(temp.index(max(temp)) + 2) + " >silhout> " + str(max(temp)))
-   ```
+       banyak_cluster = list(range(2, 150))
+       for n_cluster in banyak_cluster:
+           clusterer = KMeans(n_clusters=n_cluster)
+           preds = clusterer.fit_predict((df))centers = clusterer.cluster_centers_
+       score = silhouette_score(df, preds, metric='euclidean')
+       temp.append(score)
+       temp_pred.append(preds)
+       
+       # print ("Untuk kluster={},silhoute score :{} ".format(n_cluster, repr(score)))
+       # print(preds)
+       print ("kluster terbaik")
+       print ("kluster ke > " + str(temp.index(max(temp)) + 2) + " >silhout> " + str(max(temp)))
+
 
    code diatas digunakan untuk melakukan proses clustering menggunakan metode *K-mean clustering*  menggunakan *euclidean* serta menghitung nilai *silhoutte* pada setiap cluster dengan menggunakan total corpus asli sebanyak kurang lebih 2000, untuk selanjutnya menampilkan nilai *silhoutte* terbaik
 
@@ -453,47 +453,41 @@ File :
 
    code diatas digunakan untuk melakukan proses looping banyaknya PCA yang akan digunakan yang di mulai dari 3 sampai 149.
 
-   ```
-   dataframe = pd.read_csv('baru_tfidv.csv', encoding='utf-8', skiprows=0, index_col=0, sep=',')
-   df = dataframe.copy(deep=True)
-   pca = PCA(n_components=n_pca)
-   principalcomponent = pca.fit_transform(df)
-   kolom=[]
-   for i in range(n_pca):
-       kolom.append("PCA"+str(i+1))
-   principaldf = pd.DataFrame(data=principalcomponent, columns=kolom)
-   new_csv = principaldf.to_csv('baru_withpca.csv')
-   dataframe = pd.read_csv('baru_withpca.csv', encoding='utf-8', skiprows=0, index_col=0, sep=',')
-   
-   df = dataframe.copy(deep=True)
-   ```
-
+       dataframe = pd.read_csv('baru_tfidv.csv', encoding='utf-8', skiprows=0, index_col=0, sep=',')
+       df = dataframe.copy(deep=True)
+       pca = PCA(n_components=n_pca)
+       principalcomponent = pca.fit_transform(df)
+       kolom=[]
+       for i in range(n_pca):
+           kolom.append("PCA"+str(i+1))
+       principaldf = pd.DataFrame(data=principalcomponent, columns=kolom)
+       new_csv = principaldf.to_csv('baru_withpca.csv')
+       dataframe = pd.read_csv('baru_withpca.csv', encoding='utf-8', skiprows=0, index_col=0, sep=',')
+       
+       df = dataframe.copy(deep=True)
    code diatas digunakan untuk melakukan perhitungan setiap looping (banyak) PCA diatas tadi.
 
-   ```
-   banyak_cluster = list(range(2, 150))
-   temp = []
-   temp2=[]
-   for n_cluster in banyak_cluster:
-       clusterer = KMeans(n_clusters=n_cluster)
-       preds = clusterer.fit_predict((df))
-   
-       centers = clusterer.cluster_centers_
-       score = silhouette_score(df, preds, metric='euclidean')
-       temp.append(score)
-   
-       # print ("Untuk kluster={},silhoute score :{} ".format(n_cluster, repr(score)))
-       # print(preds)
-   
-   temp_besar=str(max(temp))
-   temp_index_besar = str(temp.index(max(temp)) + 2)
-   
-   dict_temp[n_pca]={"kluster":temp_index_besar,"silhout":temp_besar}
-   print("PCA > ",n_pca," terbaik pada ",dict_temp[n_pca])
-   temp_kluster.append(dict_temp[n_pca]["kluster"])
-   temp_silhout.append((dict_temp[n_pca]["silhout"]))
-   ```
-
+       banyak_cluster = list(range(2, 150))
+       temp = []
+       temp2=[]
+       for n_cluster in banyak_cluster:
+           clusterer = KMeans(n_clusters=n_cluster)
+           preds = clusterer.fit_predict((df))
+       
+           centers = clusterer.cluster_centers_
+           score = silhouette_score(df, preds, metric='euclidean')
+           temp.append(score)
+       
+           # print ("Untuk kluster={},silhoute score :{} ".format(n_cluster, repr(score)))
+           # print(preds)
+       
+       temp_besar=str(max(temp))
+       temp_index_besar = str(temp.index(max(temp)) + 2)
+       
+       dict_temp[n_pca]={"kluster":temp_index_besar,"silhout":temp_besar}
+       print("PCA > ",n_pca," terbaik pada ",dict_temp[n_pca])
+       temp_kluster.append(dict_temp[n_pca]["kluster"])
+       temp_silhout.append((dict_temp[n_pca]["silhout"]))
    code diatas digunakan untuk melakukan proses clustering menggunakan metode *K-mean clustering*  menggunakan *euclidean* dengan menggunakan jumlah fitur sebanyak looping PCA diatas tadi, serta menghitung dan mencari setiap nilai silhoutte terbaiknya pada setiap cluster.
 
    ```
@@ -513,7 +507,9 @@ File :
    <u>*Kesimpulan Project :*</u>
 
 1. nilai silhoute terbaik saat menggunkan 1099 fitur adalah < 0.1,
+
 2. nilai silhoute terbaik saat dilakukan seleksi fitur mengunakan Random Forest dengan n_estimator 5 mencapai  < 0.3,
 3. nilai silhoute terbaik saat dilakukan seleksi fitur mengunakan Random Forest dengan n_estimator 50 mencapai  +-0.6,
-4. nilai silhoute terbaik saat dilakukan penyusutan fitur menggunkan PCA mencapai  <  0.4 (nilai terbaik dengan menggunakan 6 PCA pada kluster ke 8 / dengan 4 PCA pada kluster ke 6).
+4. nilai silhoute terbaik saat dilakukan penyusutan fitur menggunkan PCA mencapai  <  0.4.
+
 

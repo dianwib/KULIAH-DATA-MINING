@@ -7,7 +7,7 @@ dataframe = pd.read_csv('baru_tfidv.csv', encoding='utf-8', skiprows=0, index_co
 
 df = dataframe.copy(deep=True)
 
-banyak_cluster = list(range(2, 150))
+banyak_cluster = list(range(2, 10))
 print ("Kmeans kluster dari 2 to 149: ", banyak_cluster)
 
 temp = []
@@ -142,7 +142,7 @@ def K_mean(data):
 
     print (dataframe.info())
     df = dataframe.copy(deep=True)
-    banyak_cluster = list(range(2, 150))
+    banyak_cluster = list(range(2, 10))
     print ("Kmeans kluster dari 2 to 149: ", banyak_cluster)
 
     temp = []
@@ -168,7 +168,7 @@ def K_mean(data):
 while True:
     print ("""\t\t\t
             
-              1. RFE model LinierRegresion                         
+              1. RFE model LogisticRegresion                         
               2. RFE model RandomForest
               3. UFS model chi^2
               4. UFS model mutual_info_classif
